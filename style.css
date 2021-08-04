@@ -215,6 +215,7 @@ ul li a{
     position: relative;
     left: -150px;
     color: #fff;
+    outline: none;
 }
 /* about */
 .about{
@@ -255,6 +256,7 @@ button{
     border-radius: 20px;
     background-color: #a78484;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
 }
 /* service */
 .service{
@@ -476,8 +478,8 @@ Scroller
         display: none;
     }
     nav .logo{
-        width: 10%;
-        margin: 0 38%;
+        width: 30%;
+        margin: 0 35%;
     }
     .main .left{
         width: 80%;
@@ -496,8 +498,9 @@ Scroller
         margin-top: 40px;
     }
     .main .social{
-        width: 75%;
-        margin: 0 25%;
+        width: 80%;
+        margin-left: 20%;
+
         margin-bottom: 50px;
     }
 
@@ -548,19 +551,38 @@ Scroller
     }
     .small .left{
         width: 80%;
-        margin-left: 6%;
+        margin: 0 10%;
         clear: both;
     }
     .small .right{
-        width: 80%;
+        width: 50%;
+        margin-left: 7%;
         clear: both;
+        
     }
     .small .two{
-        width: 80%;
+        width: 95%;
         clear: both;
     }
     .small .three{
+        /* width: 95%; */
         clear: both;
-        width: 80%;
+    }
+    .popular-dish .view-more{
+        width: 20%;
+        padding: 6 10px;
+        margin-left: 25%;
+    }
+    .copy{
+        /* width: 80%; */
+        margin: 0 10%;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .popular-dish .view-more{
+        width: 30%;
+        margin-left: 25%;
     }
 }
