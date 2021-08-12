@@ -71,11 +71,12 @@ nav #icon{
     position: relative;
     display: none;
 }
-nav .logo{
-    margin-left: 25px;
-}
+
 /* Responsive Menu */
 @media screen and (max-width: 800px) {
+    nav .logo{
+        margin-left: 25px;
+    }
     nav ul{
         display: none;
         position: absolute;
