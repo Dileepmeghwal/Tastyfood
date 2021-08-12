@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./images/burger.png">
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -26,6 +26,7 @@
                 <li><a href="#app">Get App</a></li>
                 <li><a href="#" class="active">Book Now</a></li>
             </ul>
+            <span class="uil uil-bars" id="icon"></span>
         </nav>
     </header>
 <!-- -----------end-home---------------- -->
@@ -176,6 +177,12 @@
         </div>
         <p class="copy">Copyright &copy;2021 All rights reserved | -Design by <span>Dileep Meghwal</span></p>
     </div>
+
+    <script>
+        $("#icon").click(function(){
+            $("ul").slideToggle();
+        });
+    </script>
     <script src="./script.js"></script>
 </body>
 </html> 
